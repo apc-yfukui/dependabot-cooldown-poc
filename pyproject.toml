@@ -5,7 +5,7 @@ requires-python = ">=3.10"
 # boto3: 毎日リリースされる -> バージョン更新(cooldown対象)の観察用
 # urllib3: 既知CVEのある古い版で固定 -> セキュリティ更新(cooldown非対象のはず)の観察用
 dependencies = [
-  "boto3==1.44.1",
+  "boto3==1.44.7",
   "urllib3==1.26.4",
 ]
 
